@@ -1,0 +1,20 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
+    <extensionMap>
+      <mapping pattern=".env.production.local" type=".env file" />
+      <mapping pattern=".gitignore_global" type="Git file" />
+      <mapping ext="liquid" type="HTML" />
+      <mapping pattern=".keep" type="PLAIN_TEXT" />
+      <mapping pattern=".envrc" type="PLAIN_TEXT" />
+      <mapping pattern=".env.local" type="PLAIN_TEXT" />
+      <mapping ext="java" type="PLAIN_TEXT" />
+      <mapping ext="conf" type="PLAIN_TEXT" />
+      <mapping ext="jst" type="PLAIN_TEXT" />
+      <mapping ext="jbilder" type="PLAIN_TEXT" />
+      <mapping ext="class" type="PLAIN_TEXT" />
+      <mapping pattern=".pryrc" type="Ruby" />
+      <mapping ext="axlsx" type="Ruby" />
+    </extensionMap>
+  </component>
+</application>

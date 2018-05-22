@@ -1,0 +1,12 @@
+<templateSet group="Angular Templates">
+  <template name="@component iife" value="(function(angular){&#10;    &quot;use strict&quot;;&#10;    angular.module('$moduleName$')&#10;        .component('$componentName$', $componentName$Component);&#10;    &#10;    function $componentName$Component(){&#10;        return {&#10;            $templateType$: &quot;$restrict$&quot;,&#10;            controller: $componentName$Controller,&#10;            bindings: {&#10;                $var1$: &quot;&lt;&quot;&#10;            }&#10;            &#10;        };&#10;        &#10;        function $componentName$Controller(){&#10;            /*ngInject*/&#10;            $END$&#10;        }&#10;    }&#10;    &#10;})(angular);" description="Add a component to a module wrapped in an IIFE" toReformat="false" toShortenFQNames="true">
+    <variable name="moduleName" expression="suggestAngularModuleName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="componentName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="templateType" expression="enum('template', 'templateUrl')" defaultValue="" alwaysStopAt="true" />
+    <variable name="restrict" expression="enum(&quot;E&quot;, &quot;A&quot;, &quot;C&quot;, &quot;EA&quot;, &quot;AC&quot;, &quot;EAC&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

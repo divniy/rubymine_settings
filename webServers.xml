@@ -1,0 +1,13 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="fb6a932d-275d-4168-9cd1-798198a028dc" name="osiris.divniy.com" url="http://osiris.divniy.com">
+        <fileTransfer host="osiris.divniy.com" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" passphrase="dff9dfe2dfeadfc7dfcbdfc4df92df9edf9cdf9f" username="deploy" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
