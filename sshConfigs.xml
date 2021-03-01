@@ -1,0 +1,9 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="osiris.divniy.com" id="6d424805-0c4e-41ca-94a1-67813ad18148" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="osiris.divniy.com" nameFormat="CUSTOM" username="deploy">
+        <option name="customName" value="osiris.divniy.com" />
+      </sshConfig>
+    </configs>
+  </component>
+</application>
