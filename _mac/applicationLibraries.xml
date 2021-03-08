@@ -2111,6 +2111,22 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.7.2@shapes/gems/redis-4.2.5/lib" />
       </SOURCES>
     </library>
+    <library name="redis-objects (v1.5.0, RVM: ruby-2.7.2 [shapes]) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.7.2@shapes/gems/redis-objects-1.5.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.7.2@shapes/gems/redis-objects-1.5.0/spec" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.7.2@shapes/gems/redis-objects-1.5.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.7.2@shapes/gems/redis-objects-1.5.0/spec" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.7.2@shapes/gems/redis-objects-1.5.0/spec" />
+      </excluded>
+    </library>
     <library name="reline (v0.1.5, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
