@@ -609,6 +609,28 @@
         <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/globalid-0.4.2/lib" />
       </SOURCES>
     </library>
+    <library name="httpclient (v2.8.3, asdf: 3.0.0) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/httpclient-2.8.3/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/httpclient-2.8.3/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/httpclient-2.8.3/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/httpclient-2.8.3/sample" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/httpclient-2.8.3/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/httpclient-2.8.3/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/httpclient-2.8.3/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/httpclient-2.8.3/sample" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/httpclient-2.8.3/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/httpclient-2.8.3/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/httpclient-2.8.3/sample" />
+      </excluded>
+    </library>
     <library name="i18n (v1.8.9, asdf: 3.0.0) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -922,6 +944,17 @@
         <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/msgpack-1.4.2/doclib" />
       </excluded>
     </library>
+    <library name="multi_json (v1.15.0, asdf: 3.0.0) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/multi_json-1.15.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/multi_json-1.15.0/lib" />
+      </SOURCES>
+    </library>
     <library name="net-http (v0.1.1, asdf: 3.0.0) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -1226,6 +1259,44 @@
         <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/puma-5.2.2/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/puma-5.2.2/docs" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/puma-5.2.2/tools" />
+      </excluded>
+    </library>
+    <library name="pusher (v1.4.3, asdf: 3.0.0) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/pusher-1.4.3/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/pusher-1.4.3/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/pusher-1.4.3/.github" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/pusher-1.4.3/examples" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/pusher-1.4.3/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/pusher-1.4.3/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/pusher-1.4.3/.github" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/pusher-1.4.3/examples" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/pusher-1.4.3/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/pusher-1.4.3/.github" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/pusher-1.4.3/examples" />
+      </excluded>
+    </library>
+    <library name="pusher-signature (v0.1.8, asdf: 3.0.0) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/pusher-signature-0.1.8/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/pusher-signature-0.1.8/spec" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/pusher-signature-0.1.8/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/pusher-signature-0.1.8/spec" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/pusher-signature-0.1.8/spec" />
       </excluded>
     </library>
     <library name="racc (v1.4.16, RVM: ruby-2.7.2 [global]) [gem]" type="rubylib">
