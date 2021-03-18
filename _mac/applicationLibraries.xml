@@ -1262,6 +1262,28 @@
         <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/racc-1.5.2/sample" />
       </excluded>
     </library>
+    <library name="rack (v2.1.4, asdf: 3.0.0) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/rack-2.1.4/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/rack-2.1.4/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/rack-2.1.4/contrib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/rack-2.1.4/example" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/rack-2.1.4/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/rack-2.1.4/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/rack-2.1.4/contrib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/rack-2.1.4/example" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/rack-2.1.4/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/rack-2.1.4/contrib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/3.0.0/lib/ruby/gems/3.0.0/gems/rack-2.1.4/example" />
+      </excluded>
+    </library>
     <library name="rack (v2.2.3, asdf: 3.0.0) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
